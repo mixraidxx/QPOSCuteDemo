@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63BB1D8A27758D5400DBBF33 /* QPOSCuteDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BB1D8927758D5400DBBF33 /* QPOSCuteDemoApp.swift */; };
+		63BB1D8C27758D5400DBBF33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BB1D8B27758D5400DBBF33 /* ContentView.swift */; };
+		63BB1D8E27758D5600DBBF33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63BB1D8D27758D5600DBBF33 /* Assets.xcassets */; };
+		63BB1D9127758D5600DBBF33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63BB1D9027758D5600DBBF33 /* Preview Assets.xcassets */; };
+		63BB1D9B27758D5600DBBF33 /* QPOSCuteDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BB1D9A27758D5600DBBF33 /* QPOSCuteDemoTests.swift */; };
+		63BB1DA527758D5600DBBF33 /* QPOSCuteDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BB1DA427758D5600DBBF33 /* QPOSCuteDemoUITests.swift */; };
+		63BB1DA727758D5600DBBF33 /* QPOSCuteDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BB1DA627758D5600DBBF33 /* QPOSCuteDemoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63BB1D9727758D5600DBBF33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63BB1D7E27758D5400DBBF33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63BB1D8527758D5400DBBF33;
+			remoteInfo = QPOSCuteDemo;
+		};
+		63BB1DA127758D5600DBBF33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63BB1D7E27758D5400DBBF33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63BB1D8527758D5400DBBF33;
+			remoteInfo = QPOSCuteDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63BB1D8627758D5400DBBF33 /* QPOSCuteDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QPOSCuteDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63BB1D8927758D5400DBBF33 /* QPOSCuteDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QPOSCuteDemoApp.swift; sourceTree = "<group>"; };
+		63BB1D8B27758D5400DBBF33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		63BB1D8D27758D5600DBBF33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63BB1D9027758D5600DBBF33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		63BB1D9627758D5600DBBF33 /* QPOSCuteDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QPOSCuteDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63BB1D9A27758D5600DBBF33 /* QPOSCuteDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QPOSCuteDemoTests.swift; sourceTree = "<group>"; };
+		63BB1DA027758D5600DBBF33 /* QPOSCuteDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QPOSCuteDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63BB1DA427758D5600DBBF33 /* QPOSCuteDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QPOSCuteDemoUITests.swift; sourceTree = "<group>"; };
+		63BB1DA627758D5600DBBF33 /* QPOSCuteDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QPOSCuteDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63BB1D8327758D5400DBBF33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63BB1D9327758D5600DBBF33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63BB1D9D27758D5600DBBF33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63BB1D7D27758D5400DBBF33 = {
+			isa = PBXGroup;
+			children = (
+				63BB1D8827758D5400DBBF33 /* QPOSCuteDemo */,
+				63BB1D9927758D5600DBBF33 /* QPOSCuteDemoTests */,
+				63BB1DA327758D5600DBBF33 /* QPOSCuteDemoUITests */,
+				63BB1D8727758D5400DBBF33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63BB1D8727758D5400DBBF33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63BB1D8627758D5400DBBF33 /* QPOSCuteDemo.app */,
+				63BB1D9627758D5600DBBF33 /* QPOSCuteDemoTests.xctest */,
+				63BB1DA027758D5600DBBF33 /* QPOSCuteDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63BB1D8827758D5400DBBF33 /* QPOSCuteDemo */ = {
+			isa = PBXGroup;
+			children = (
+				63BB1D8927758D5400DBBF33 /* QPOSCuteDemoApp.swift */,
+				63BB1D8B27758D5400DBBF33 /* ContentView.swift */,
+				63BB1D8D27758D5600DBBF33 /* Assets.xcassets */,
+				63BB1D8F27758D5600DBBF33 /* Preview Content */,
+			);
+			path = QPOSCuteDemo;
+			sourceTree = "<group>";
+		};
+		63BB1D8F27758D5600DBBF33 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				63BB1D9027758D5600DBBF33 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		63BB1D9927758D5600DBBF33 /* QPOSCuteDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				63BB1D9A27758D5600DBBF33 /* QPOSCuteDemoTests.swift */,
+			);
+			path = QPOSCuteDemoTests;
+			sourceTree = "<group>";
+		};
+		63BB1DA327758D5600DBBF33 /* QPOSCuteDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63BB1DA427758D5600DBBF33 /* QPOSCuteDemoUITests.swift */,
+				63BB1DA627758D5600DBBF33 /* QPOSCuteDemoUITestsLaunchTests.swift */,
+			);
+			path = QPOSCuteDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63BB1D8527758D5400DBBF33 /* QPOSCuteDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63BB1DAA27758D5600DBBF33 /* Build configuration list for PBXNativeTarget "QPOSCuteDemo" */;
+			buildPhases = (
+				63BB1D8227758D5400DBBF33 /* Sources */,
+				63BB1D8327758D5400DBBF33 /* Frameworks */,
+				63BB1D8427758D5400DBBF33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QPOSCuteDemo;
+			productName = QPOSCuteDemo;
+			productReference = 63BB1D8627758D5400DBBF33 /* QPOSCuteDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63BB1D9527758D5600DBBF33 /* QPOSCuteDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63BB1DAD27758D5600DBBF33 /* Build configuration list for PBXNativeTarget "QPOSCuteDemoTests" */;
+			buildPhases = (
+				63BB1D9227758D5600DBBF33 /* Sources */,
+				63BB1D9327758D5600DBBF33 /* Frameworks */,
+				63BB1D9427758D5600DBBF33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63BB1D9827758D5600DBBF33 /* PBXTargetDependency */,
+			);
+			name = QPOSCuteDemoTests;
+			productName = QPOSCuteDemoTests;
+			productReference = 63BB1D9627758D5600DBBF33 /* QPOSCuteDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63BB1D9F27758D5600DBBF33 /* QPOSCuteDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63BB1DB027758D5600DBBF33 /* Build configuration list for PBXNativeTarget "QPOSCuteDemoUITests" */;
+			buildPhases = (
+				63BB1D9C27758D5600DBBF33 /* Sources */,
+				63BB1D9D27758D5600DBBF33 /* Frameworks */,
+				63BB1D9E27758D5600DBBF33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63BB1DA227758D5600DBBF33 /* PBXTargetDependency */,
+			);
+			name = QPOSCuteDemoUITests;
+			productName = QPOSCuteDemoUITests;
+			productReference = 63BB1DA027758D5600DBBF33 /* QPOSCuteDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63BB1D7E27758D5400DBBF33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					63BB1D8527758D5400DBBF33 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					63BB1D9527758D5600DBBF33 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 63BB1D8527758D5400DBBF33;
+					};
+					63BB1D9F27758D5600DBBF33 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 63BB1D8527758D5400DBBF33;
+					};
+				};
+			};
+			buildConfigurationList = 63BB1D8127758D5400DBBF33 /* Build configuration list for PBXProject "QPOSCuteDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63BB1D7D27758D5400DBBF33;
+			productRefGroup = 63BB1D8727758D5400DBBF33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63BB1D8527758D5400DBBF33 /* QPOSCuteDemo */,
+				63BB1D9527758D5600DBBF33 /* QPOSCuteDemoTests */,
+				63BB1D9F27758D5600DBBF33 /* QPOSCuteDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63BB1D8427758D5400DBBF33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63BB1D9127758D5600DBBF33 /* Preview Assets.xcassets in Resources */,
+				63BB1D8E27758D5600DBBF33 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63BB1D9427758D5600DBBF33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63BB1D9E27758D5600DBBF33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63BB1D8227758D5400DBBF33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63BB1D8C27758D5400DBBF33 /* ContentView.swift in Sources */,
+				63BB1D8A27758D5400DBBF33 /* QPOSCuteDemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63BB1D9227758D5600DBBF33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63BB1D9B27758D5600DBBF33 /* QPOSCuteDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63BB1D9C27758D5600DBBF33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63BB1DA527758D5600DBBF33 /* QPOSCuteDemoUITests.swift in Sources */,
+				63BB1DA727758D5600DBBF33 /* QPOSCuteDemoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63BB1D9827758D5600DBBF33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63BB1D8527758D5400DBBF33 /* QPOSCuteDemo */;
+			targetProxy = 63BB1D9727758D5600DBBF33 /* PBXContainerItemProxy */;
+		};
+		63BB1DA227758D5600DBBF33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63BB1D8527758D5400DBBF33 /* QPOSCuteDemo */;
+			targetProxy = 63BB1DA127758D5600DBBF33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		63BB1DA827758D5600DBBF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63BB1DA927758D5600DBBF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63BB1DAB27758D5600DBBF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QPOSCuteDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = 7W27Y5W88U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mixraidxx.QPOSCuteDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63BB1DAC27758D5600DBBF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QPOSCuteDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = 7W27Y5W88U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mixraidxx.QPOSCuteDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		63BB1DAE27758D5600DBBF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7W27Y5W88U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mixraidxx.QPOSCuteDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QPOSCuteDemo.app/QPOSCuteDemo";
+			};
+			name = Debug;
+		};
+		63BB1DAF27758D5600DBBF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7W27Y5W88U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mixraidxx.QPOSCuteDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QPOSCuteDemo.app/QPOSCuteDemo";
+			};
+			name = Release;
+		};
+		63BB1DB127758D5600DBBF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7W27Y5W88U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mixraidxx.QPOSCuteDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QPOSCuteDemo;
+			};
+			name = Debug;
+		};
+		63BB1DB227758D5600DBBF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7W27Y5W88U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mixraidxx.QPOSCuteDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QPOSCuteDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63BB1D8127758D5400DBBF33 /* Build configuration list for PBXProject "QPOSCuteDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63BB1DA827758D5600DBBF33 /* Debug */,
+				63BB1DA927758D5600DBBF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63BB1DAA27758D5600DBBF33 /* Build configuration list for PBXNativeTarget "QPOSCuteDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63BB1DAB27758D5600DBBF33 /* Debug */,
+				63BB1DAC27758D5600DBBF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63BB1DAD27758D5600DBBF33 /* Build configuration list for PBXNativeTarget "QPOSCuteDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63BB1DAE27758D5600DBBF33 /* Debug */,
+				63BB1DAF27758D5600DBBF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63BB1DB027758D5600DBBF33 /* Build configuration list for PBXNativeTarget "QPOSCuteDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63BB1DB127758D5600DBBF33 /* Debug */,
+				63BB1DB227758D5600DBBF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63BB1D7E27758D5400DBBF33 /* Project object */;
+}
