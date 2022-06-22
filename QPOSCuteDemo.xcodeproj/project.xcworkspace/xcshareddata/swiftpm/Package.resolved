@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "354dda32d89fc8cd4f5c46487f64957d355f53d8",
+        "version" : "5.6.1"
+      }
+    },
+    {
+      "identity" : "swift-crc32",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/my-mail-ru/swift-CRC32.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "b0e5bc3430a3e4cebf2daac29a84a0e3a82f691d"
+      }
+    }
+  ],
+  "version" : 2
+}
